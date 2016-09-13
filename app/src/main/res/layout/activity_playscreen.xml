@@ -105,7 +105,7 @@
         android:layout_above="@+id/textViewBrugt"
         android:layout_centerHorizontal="true" />
 
-    <Button
+  <!--  <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -113,5 +113,18 @@
         android:id="@+id/buttonGæt"
         android:layout_below="@+id/textViewBrugt"
         android:layout_centerHorizontal="true" />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewDød"
+        android:layout_above="@+id/buttonStartNy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:gravity="center"
+        android:textSize="76sp"
+
+        />
 
 </RelativeLayout>
